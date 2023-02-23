@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #527269;
+    font-family: 'Inter', sans-serif;
+}
+
+#card {
+    width: calc(550px - 104px);
+    height: calc(550px - 220px);
+    background: linear-gradient(180deg, #ECFDF5 55.73%, #48D895 92.19%);
+    padding: 110px 52px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 1px #216251;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    color: #2B283A;
+    margin: 0;
+}
+
+h1 > span {
+    color: #10B981;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6B7280;
+    margin: 10px 0 51px 0;
+}
+
+button {
+    cursor: pointer;
+    width: 191px;
+    height: 42px;
+    border: none;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+hr {
+    border: 1px solid #527269;
+    margin: 35px 0;
+}
+
+#password-boxes {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-box {
+    width: 211px;
+    height: 39px;
+    background: #ECFDF5;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #10B981;
+}
+
+#click-alert {
+    margin: 15px 0;
+    color: #047857;
+}
